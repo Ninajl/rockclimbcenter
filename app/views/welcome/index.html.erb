@@ -1,12 +1,16 @@
-<div
-  class="fb-like"
-  data-share="true"
-  data-width="450"
-  data-show-faces="true">
-</div>
+<div class="container landing"
+<div class="title">
+    <h1 class"text-center">Your Climb Center</h1>
+      <h4>
+        Begin your journey
+      </h4>
+      <p class="text=center"><%= link_to image_tag('facebook-button.png'), "/auth/facebook", id: "sign_in" %>
+      </p>
+      <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+      </fb:login-button>
+      </div>
 
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-</fb:login-button>
 
 <div id="status">
+</div>
 </div>
