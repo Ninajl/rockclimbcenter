@@ -1,0 +1,88 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require rotation
+
+ */
+
+ @import 'bootstrap-sprockets';
+  @import 'bootstrap';
+
+
+ // navbar image
+  .avatar {
+    border: 0;
+    border-radius: 5px;
+    display :block;
+    height: 32px;
+    width: 32px;
+    margin-top: 8px;
+  }
+
+  .row {
+    height: 100%;
+  }
+  .col-md-2 {
+    position: absolute;
+    height: 100%;
+    width:25%;
+    background-color: #23404e;
+    border-height: 100%;
+  }
+
+  // h1 h4{
+  //   color: white;
+  // }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .rotation {
+    color: black;
+    border-radius: 20px;
+  }
+
+  .hold {
+   list-style-type: none;
+   overflow: hidden;
+   height: 30px;
+   font-size: 25px;
+   line-height: 30px;
+   text-decoration: none;
+
+  }
+
+  #type {
+    color: black;
+  }
+
+  .col-md-5 {
+   position: fixed;
+   // border: 2px solid black;
+ }
+
+  .direction {
+   color:black
+ }
+
+ .movement {
+   border: 2px solid black;
+
+ }
+
+  h1 {
+    margin-top:10px;
+  }
