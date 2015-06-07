@@ -56,6 +56,14 @@
     border-height: 100%;
   }
 
+  .col-md-5 {
+   position: fixed;
+   // border: 2px solid black;
+ }
+
+ p {
+   margin: 60px 100px 0px 10px;
+ }
   // h1 h4{
   //   color: white;
   // }
@@ -83,11 +91,6 @@
   #type {
     color: black;
   }
-
-  .col-md-5 {
-   position: fixed;
-   // border: 2px solid black;
- }
 
   .direction {
    color:black
