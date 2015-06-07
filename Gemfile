@@ -12,7 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 
-gem 'bootstrap-sass', '~>3.3.1'
+gem 'bootstrap-sass', '~>3.3.4'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -45,7 +45,7 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'better_errors'
   gem 'dotenv-rails'
-  
+
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
