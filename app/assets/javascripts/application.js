@@ -95,3 +95,14 @@ function statusChangeCallback(response) {
        window.location.href = '/climbers'
    });
  }
+// function for event that occurs when clicking on hold type on sidebar and displaying image with corresponding description
+ function setHold(event) {
+  var name = event.currentTarget.id
+  var picture_container = document.getElementById('image')
+  var title = document.getElementById('type')
+  var rotation = document.getElementById('rotation')
+  var movement_text = document.getElementById(name)
+      picture_container.src =  "assets/" + name + ".png"
+      title.innerHTML = name
+      rotation.innerHTML = movement_text.dataset.movement
+}
