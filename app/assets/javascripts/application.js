@@ -96,6 +96,7 @@ function statusChangeCallback(response) {
    });
  }
 // function for event that occurs when clicking on hold type on sidebar and displaying image with corresponding description
+
  function setHold(event) {
   var name = event.currentTarget.id
   var picture_container = document.getElementById('image')
@@ -106,3 +107,12 @@ function statusChangeCallback(response) {
       title.innerHTML = name
       rotation.innerHTML = movement_text.dataset.movement
 }
+
+
+jQuery.fn.rotate = function(degrees) {
+    $(this).css({'-webkit-transform' : 'rotate('+ degrees +'deg)',
+                 '-moz-transform' : 'rotate('+ degrees +'deg)',
+                 '-ms-transform' : 'rotate('+ degrees +'deg)',
+                 'transform' : 'rotate('+ degrees +'deg)'});
+    return $(this);
+};
