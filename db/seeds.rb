@@ -33,9 +33,11 @@ gym_list = [
   [ "Glenwood Springs", "Glenwood Springs Community Center", "100 Wulfsohn Rd. Glenwood Springs, 81601", "(970)384-6311", "http://www.glenwoodrec.com/climbing-wall" ]
   [ "Golden", "EarthTreks Golden Climbing Center", "700 Golden Ridge Rd. Golden, 80401", "(303)222-9564", "https://www.earthtreksclimbing.com/co/golden/" ]
   [ "Grand Junction", "Grand Valley Climbing", "611 25 Road Grand Junction, 81505", "(970)644-5821", "www.grandvalleyclimbing.com" ]
-  [ "Boulder", "The Spot", "3240 Prairie Ave. Boulder, 80301", "(303)379-8806", "www.thespotgym.com" ]
-
-
+  [ "Gunnison", "Gunnison Community Center", "200 E. Spencer Ave Gunnison, 81230", "(970)641-8060", "https://apm.activecommunities.com/gunnisonrec/Activity_Search/advanced-indoor-outdoor-rock-climbing/6270" ]
+  [ "Gunnison", "Western State College Climbing Wall", "Escalante Fitness Center", "(970)943.3363", "http://www.western.edu/current-students/campus-recreation/mountaineer-field-house/climbing-wall-mountaineer-field-house" ]
+  [ "Monument", "CityRock Climbing & Adventures Center", "16240 Old Denver Hwy Monument, 80132", "(719)481-9099", "www.climbcityrock.com" ]
+  [ "Thornton", "Rock'n & Jam'n", "9499 N. Washington St. #C Thornton, 80229", "(303)254-4344", "www.rocknandjamn.com" ]
+  [ "Vail", "Vail Athletic Club", "352 East Meadow Drive Vail, 81657", "(970)476-7960", "http://www.vailvitalitycenter.com/climbing/" ]
 
 ]
 
