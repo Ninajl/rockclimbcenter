@@ -54,29 +54,27 @@
         Phone Number
       </th>
       <th>
-        Favorite
-      </th>
-      <th>
-        Attend
-      </th>
-      <th>
-        Share with Friends
+        Link
       </th>
     </tr>
   </thead>
   <tbody>
-    <%= @gyms.each do |gym| %>
+    <% @gyms.each do |gym| %>
     <tr>
       <td>
         <%= gym.location %>
       </td>
       <td>
+        <%= gym.name %>
       </td>
       <td>
+        <%= gym.address %>
       </td>
       <td>
+        <%= gym.phone %>
       </td>
       <td>
+        <%= gym.link %>
       </td>
       <td>
       </td>
