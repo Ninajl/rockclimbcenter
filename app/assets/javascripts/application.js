@@ -128,9 +128,3 @@ function setPosition(degrees, id){
     $('#gas').hide();
     $(id).show();
 }
-
-// function setDescription(position){
-//   var elem = document.getElementById('button')
-//   var position =
-//
-// }
