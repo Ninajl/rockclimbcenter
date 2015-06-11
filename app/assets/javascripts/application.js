@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= rotation
+//= index
 //= require turbolinks
 //= require_tree .
 
