@@ -96,6 +96,8 @@ function statusChangeCallback(response) {
        window.location.href = '/climbers'
    });
  }
+
+
 // function for event that occurs when clicking on hold type on sidebar and displaying image with corresponding description
 
  function setHold(event) {
@@ -107,8 +109,9 @@ function statusChangeCallback(response) {
       picture_container.src =  "assets/" + name + ".png"
       title.innerHTML = name
       rotation.innerHTML = movement_text.dataset.movement
-}
+      $('#image').rotate(360);
 
+}
 
 jQuery.fn.rotate = function(degrees) {
     $(this).css({'-webkit-transform' : 'rotate('+ degrees +'deg)',
@@ -117,3 +120,17 @@ jQuery.fn.rotate = function(degrees) {
                  'transform' : 'rotate('+ degrees +'deg)'});
     return $(this);
 };
+
+function setPosition(degrees, id){
+    $('#image').rotate(degrees)
+    $('#pull').hide();
+    $('#cling').hide();
+    $('#gas').hide();
+    $(id).show();
+}
+
+// function setDescription(position){
+//   var elem = document.getElementById('button')
+//   var position =
+//
+// }

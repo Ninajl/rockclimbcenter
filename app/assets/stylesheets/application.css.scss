@@ -46,6 +46,12 @@
     margin-top: 8px;
   }
 
+  .header{
+    color:orange;
+    font-size:20px;
+    margin-left:15px;
+  }
+
   #type {
     text-transform: uppercase;
   }
@@ -116,7 +122,7 @@
    }
 
   #image {
-   position: arelative;
+   position: relative;
    width: 300px;
    height: 300px;
    margin-top: 55px;
@@ -130,4 +136,15 @@
    table {
      color:black;
      border: 1px black solid
+   }
+
+   button {
+     margin-left:52px;
+   }
+
+   .position {
+     color: black;
+     margin-top: 20px;
+     margin-left: 11px;
+     margin-right:80px;
    }
