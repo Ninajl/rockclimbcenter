@@ -13,4 +13,12 @@ $(document).ready(function() {
   $('button').on('click', function(){
     $('.position').show();
   })
+
+  $('span').on('click', function(){
+    $('.row').slideDown(500);
+    $('.table-striped').hide();
+    $('.col-md-5').show();
+  })
+
+
 })
