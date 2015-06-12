@@ -4,8 +4,13 @@ $(document).ready(function() {
     $('.table-striped').show();
     $('.row').slideUp(500);
 
-    e.preventDefault;
+    // e.preventDefault;
   });
 
-
+  $('.side-link').on('click', function(){
+    $('.position').hide();
+  })
+  $('button').on('click', function(){
+    $('.position').show();
+  })
 })
