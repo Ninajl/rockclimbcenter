@@ -43,7 +43,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'quiet_assets'
-  gem 'better_errors'
+  gem 'sprockets_better_errors'
   gem 'dotenv-rails'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
